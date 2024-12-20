@@ -7,7 +7,7 @@ public class CurrencyConverter {
     private static Map<String, Double> exchangeRates = new HashMap<>();
 
     static {
-        exchangeRates.put("USD", 1.0);       
+        exchangeRates.put("USD", 1.0);
         exchangeRates.put("EUR", 0.85);
         exchangeRates.put("JPY", 110.0);
         exchangeRates.put("GBP", 0.75);
